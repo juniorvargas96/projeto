@@ -9,6 +9,10 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     // Se tiver light mode, adicionar a imagem light
     img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute(
+      "alt",
+      "Junior Vargas e sua esposa Bárbara Kuhn em uma self em sua viagem nas Férias"
+    )
   } else {
     // se tiver sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/avatar.png")
